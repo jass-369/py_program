@@ -65,4 +65,45 @@
 #d1.update(d2)
 #print(f"after update=,{d1}")
 
+##mulitiple value
+#a=("rohit","manav","harshi")
+#b=dict.fromkeys(a,"math")
+#print(b)
+#a=dict.fromkeys("msea",88)
+#print(a)
+###
+#company={
+#    "ceo":{"name":"john due",
+#           "role":"Excutive"},
+#    "employess":{
+ #       101:{"name":"siru",
+ #            "role":"Engineer",
+#        },
+#        102:{
+#            "name":"sahu",
+#            "role":"Designer"}
+ #        },
+ #    "Departments": ["HR","Engineer","Design"]   
+#         }
+#print(company["ceo"]["name"][1])
+#print(company.get("ceo").get("employess"))
+#print(company.get("employess"))
+#print(company.get("employess").get("skill","mathmetics").upper())
+###methods
+#a={"name":"ishu","age":21,"skill":"manupulation"}
+#print(a.keys())
+#print(a.values())
+#print(a.items())
+###
+#loop in dict
+a={"name":"ishu","age":21,"skill":"manupulation"}
+#for x in a:
+for x in a.values():
+#for x in a.keys():
+    #print(a)
+    #print(x,a[x])
+    print(x)
+    
+
+
 
