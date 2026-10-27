@@ -95,14 +95,22 @@
 #print(a.values())
 #print(a.items())
 ###
-#loop in dict
-a={"name":"ishu","age":21,"skill":"manupulation"}
+#for loop in dict
+#a={"name":"ishu","age":21,"skill":"manupulation"}
 #for x in a:
-for x in a.values():
+#for x in a.values():
 #for x in a.keys():
     #print(a)
     #print(x,a[x])
-    print(x)
+    #print(x)
+#for x in a.items():
+  #  print(x[1])
+    #print(x[0])
+#multiple data asgin
+data=[('name','ishi'),('age',21),("skill","manupulate")]
+for x, y in data:
+    print(x,y)
+
     
 
 
