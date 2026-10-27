@@ -1,0 +1,21 @@
+pin=4567
+balance=500000
+p=int(input("enter your pin"))
+if p==pin:
+print("login successful")
+print("atm menu")
+print(f"1.check balance\n2.withdraw money\n3.deposit money")
+choice=int(input("\nenter your choice:")
+if choice==1:
+print("\nyour balance is:",balance)
+elif choice==2:
+amount=int(input("enter amount to withdraw:"))
+if amount<=0:
+print("please enter a valid amount:")
+elif amount>balance:
+print("insufficient balance:")
+else:
+balance=balance-amount
+print("\nplease collect your cash:")
+print("remaining balance:",balance)
+

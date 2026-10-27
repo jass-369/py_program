@@ -1,0 +1,8 @@
+n='jass'
+f='ganganagar'
+bd='birth_date'
+print(f"my name is {n}.i am from {f}\nmy {bd}_> 26\\05\\1997")
+a='principal'
+aa="  Jaipur,malviyanagar"
+aaa="  sub_"
+print(f"to\fthe {a}\n{aa},163\\2\n{aaa}for leave")

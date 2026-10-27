@@ -1,0 +1,4 @@
+#s=input("enter something:")
+#print(f"hello {s},\f..how r you?")
+d=input("enter:")
+print(f"hey {d}..\v what r u doing?")

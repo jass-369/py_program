@@ -1,0 +1,11 @@
+e1=15
+print(e1)
+e2=28.5
+print(e2)
+e3=234
+print(e3)
+print(e1+e2+e3)
+n="name_jass"
+print(n)
+hb="birth_date_26/05/2026"
+print(hb)

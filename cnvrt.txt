@@ -1,0 +1,13 @@
+a="34578"
+a
+print(type(a))
+a=int(a)
+a
+type(a)
+
+a=465.9
+a
+type(a)
+a=int(a)
+a
+type(a)

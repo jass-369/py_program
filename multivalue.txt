@@ -1,0 +1,12 @@
+war=1984
+l=98769686.8574
+h='power'
+print(type(war))
+print(type(l))
+print(type(h))
+print(type(war),type(l),type(h))
+
+
+
+a,s,d,f=43,453.3,'yum',True
+print(type(a),type(d),type(s),type(f))

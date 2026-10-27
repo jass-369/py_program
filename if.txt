@@ -1,0 +1,6 @@
+a=int(input("enter a num:"))
+b=int(input("enter b num:"))
+if a>=b:
+ print({a-b},"+ te")
+else:
+ print({a-b},"- te")

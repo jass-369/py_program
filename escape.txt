@@ -1,0 +1,8 @@
+print('what r u doing\nnothing')
+print('ruko\tab chalo')
+print('roddragon\rfly')
+print("geograper\b\bhy")
+print('hsna\fmna hai')
+print("be\all")
+print('he\\she is a gd prsn')
+print('i\'ll give you money')
