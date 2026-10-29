@@ -107,9 +107,27 @@
   #  print(x[1])
     #print(x[0])
 #multiple data asgin
-data=[('name','ishi'),('age',21),("skill","manupulate")]
-for x, y in data:
-    print(x,y)
+#data=[('name','ishi'),('age',21),("skill","manupulate")]
+#for x, y in data:
+#    print(x,y)
+
+###loop in dict
+#printing only key,values
+# key print 
+dict={
+    "name":'rama',
+    "age":21,
+    "physics":"super",
+    'skill':"manupulation"}
+#for x in dict:
+#    print(x)
+#value print
+#1for x in dict.values():
+#    print(x)
+for x in dict:
+
+
+
 
     
 
