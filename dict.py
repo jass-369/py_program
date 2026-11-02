@@ -124,7 +124,25 @@ dict={
 #value print
 #1for x in dict.values():
 #    print(x)
-for x in dict:
+#for x in dict:
+#    print(dict[x])
+#for x in dict:
+#    print(x,dict[x])
+#for x in dict.items():
+#    print(x[0],x[1])
+#for x,y in dict.items():
+#    print(x,y)
+groceries = {
+    "bananas": 1.56,
+    "apples": 2.50,
+    "oranges": 0.99,
+    "bread": 4.59,
+    "coffee": 6.99,
+    "milk": 3.39,
+    "eggs": 2.98,
+    "cheese": 5.44
+}
+
 
 
 
