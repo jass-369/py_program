@@ -17,7 +17,12 @@
 #my_list.remove(54)
 #del my_list[0]
 #my_list.pop()
-a=[3,4,65,2,7,2,78,66]
+#a=[3,4,65,2,7,2,78,66]
 #print(my_list)
-a .sort()
-print(a)
+#a .sort()
+#a.sort(reverse=True)
+#print(a)
+#a=[3,3,2,5,6,7,4,3,7,8,9,9,5]
+#print(a.count(3))
+
+
