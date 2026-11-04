@@ -114,11 +114,11 @@
 ###loop in dict
 #printing only key,values
 # key print 
-dict={
-    "name":'rama',
-    "age":21,
-    "physics":"super",
-    'skill':"manupulation"}
+# dict={
+#     "name":'rama',
+#     "age":21,
+#     "physics":"super",
+#     'skill':"manupulation"}
 #for x in dict:
 #    print(x)
 #value print
@@ -142,6 +142,13 @@ groceries = {
     "eggs": 2.98,
     "cheese": 5.44
 }
+sos=0
+data=groceries.values()
+for i in data:
+    sos +=i
+# for i in groceries:
+#     sos +=groceries[i]
+print(sos)
 
 
 
