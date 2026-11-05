@@ -132,25 +132,58 @@
 #    print(x[0],x[1])
 #for x,y in dict.items():
 #    print(x,y)
-groceries = {
-    "bananas": 1.56,
-    "apples": 2.50,
-    "oranges": 0.99,
-    "bread": 4.59,
-    "coffee": 6.99,
-    "milk": 3.39,
-    "eggs": 2.98,
-    "cheese": 5.44
-}
-sos=0
-data=groceries.values()
-for i in data:
-    sos +=i
+
+
+###que with loop 
+
+##values sum with loop
+# groceries = {
+#     "bananas": 1.56,
+#     "apples": 2.50,
+#     "oranges": 0.99,
+#     "bread": 4.59,
+#     "coffee": 6.99,
+#     "milk": 3.39,
+#     "eggs": 2.98,
+#     "cheese": 5.44
+# }
+# sos=0
+# data=groceries.values()
+# for i in data:
+#     sos +=i
 # for i in groceries:
 #     sos +=groceries[i]
-print(sos)
+# print(sos)
 
+##numeric with loop
+#temp=0
+#for i in a:
+    #if i.isnumeric():
+    #    print(i)
+#    if i in '0123456789':
+ #       temp=temp+1
+ #       print(i,temp)
 
+##create dict ,only even num
+# dict={}
+# for i in range(1,6):
+#     dict[i]=i*i
+# print(dict)
+
+##filter dict
+data = {'x': 10, 'y': 15, 'z': 20, 'w': 25, 'v': 30, 'u': 35}
+# for x in data.values():
+#      if x % 2 == 0:
+#        print(x)
+# for x in data:
+#         if data[x]%2==0:
+#                 print(data[x])
+for x , y in data.items():
+    if data[x]%2==0:
+        print(x,data[x])
+         
+    
+        
 
 
 
